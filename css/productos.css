@@ -60,44 +60,6 @@ header>div>h1
     padding-top: 0.3em;
 }
 
-.aside-img
-{
-    float: left;
-    width: 35%;
-    height: 400px;
-}
-
-.aside-right
-{
-    float: right;
-    width: 60%;
-    height: 400px;
-    padding: 2em;
-    text-align: center;
-    color: darkcyan;
-}
-
-.text-laptop
-{
-    color: black;
-}
-
-.aside-right>p
-{
-    text-align: justify;
-    font-family: 'Roboto Slab', serif;
-    font-weight: normal;
-    color: black;
-}
-
-.img-laptop
-{
-    margin-top: 5em;
-    margin-left: 5em;
-    border-radius: 5px;
-    width: 400px;
-}
-
 footer
 {
     background-color: black;
@@ -109,7 +71,6 @@ footer
     height: 35px;
     text-align: center;
 }
-
 footer>span
 {
     padding-top: 0.5em;
