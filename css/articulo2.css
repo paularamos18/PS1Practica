@@ -1,7 +1,7 @@
 body
 {
     background-color: white;
-    background-image: url(../imagen/fondo1.jpg);
+    background-image: url(../imagen/fondo22.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Roboto Slab', serif;
@@ -65,20 +65,35 @@ header>div>h1
 
 .aside-img
 {
-    float: left;
+    float: right;
     width: 35%;
     height: 400px;
-    margin-top: 3em;
+    margin-top: 2em;
+    margin-right: 2em;
 }
 
-.aside-right
+.aside-left
 {
-    float: right;
+    float: left;
     width: 60%;
     height: 400px;
-    padding: 2em;
+    padding-top: 3em;
+    padding-left: 2em;
     text-align: center;
     color: white;
+}
+
+.text-laptop
+{
+    color: black;
+}
+
+.img-laptop
+{
+    margin-top: 7em;
+    margin-left: 3em;
+    border-radius: 5px;
+    width: 400px;
 }
 
 .articulo
@@ -95,15 +110,6 @@ header>div>h1
     color:white;
     font-weight: 400;
 }
-
-.img-laptop
-{
-    margin-top: 5em;
-    margin-left: 5em;
-    border-radius: 5px;
-    width: 400px;
-}
-
 
 footer
 {

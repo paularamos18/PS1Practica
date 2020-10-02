@@ -60,13 +60,128 @@ header>div>h1
     padding-top: 0.3em;
 }
 
+.aleft
+{
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-left: 8em;
+    margin-top: 2em;
+}
+
+.aright
+{
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-left: 8em;
+    margin-top: 2em;
+}
+
+.imagen
+{
+    width: 8px;
+    height: 150px;
+    padding-left: 12em;
+    margin-left: 1em;
+    background-image: url(../imagen/compu1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen2
+{
+    width: 3px;
+    height: 150px;
+    padding-left: 12em;
+    margin-left: 1em;
+    background-image: url(../imagen/compu2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen3
+{
+    width: 40px;
+    height: 150px;
+    padding-left: 12em;
+    margin-left: 1em;
+    background-image: url(../imagen/compu3.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen4
+{
+    width: 5px;
+    height: 150px;
+    padding-left: 12em;
+    margin-left: 1em;
+    background-image: url(../imagen/compu4.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen5
+{
+    width: 40px;
+    height: 150px;
+    padding-left: 12em;
+    margin-left: 1em;
+    background-image: url(../imagen/compu5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen6
+{
+    width: 40px;
+    height: 150px;
+    padding-left: 12em;
+    margin-left: 1em;
+    background-image: url(../imagen/compu6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.texto
+{
+    text-align: center;
+}
+
+.precio
+{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: black;
+}
+
+.lista
+{
+    text-align: left;
+    color:black;
+    font-weight: 300;
+}
+
+.Titulo
+{
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
 footer
 {
     background-color: black;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
+    clear: both;
+    position: relative;
     width: 100%;
     height: 35px;
     text-align: center;

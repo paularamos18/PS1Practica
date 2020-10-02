@@ -1,7 +1,7 @@
 body
 {
     background-color: white;
-    background-image: url(../imagen/fondo1.jpg);
+    background-image: url(../imagen/fondo33.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Roboto Slab', serif;
@@ -68,7 +68,6 @@ header>div>h1
     float: left;
     width: 35%;
     height: 400px;
-    margin-top: 3em;
 }
 
 .aside-right
@@ -79,6 +78,27 @@ header>div>h1
     padding: 2em;
     text-align: center;
     color: white;
+}
+
+.text-laptop
+{
+    color: black;
+}
+
+.aside-right>p
+{
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    color: black;
+}
+
+.img-laptop
+{
+    margin-top: 8em;
+    margin-left: 5em;
+    border-radius: 5px;
+    width: 400px;
 }
 
 .articulo
@@ -93,17 +113,8 @@ header>div>h1
 {
     text-align: left;
     color:white;
-    font-weight: 400;
+    font-weight: 300;
 }
-
-.img-laptop
-{
-    margin-top: 5em;
-    margin-left: 5em;
-    border-radius: 5px;
-    width: 400px;
-}
-
 
 footer
 {

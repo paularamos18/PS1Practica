@@ -88,46 +88,83 @@ header>div>h1
     font-size: 50px;
 }
 
-.aside-img
+section
 {
     float: left;
-    width: 35%;
-    height: 400px;
+    width: 20%;
+    height: 20%;
+    margin-left: 8em;
+    margin-top: 2em;
 }
 
-
-.aside-right
+.imagen
 {
-    float: right;
-    width: 60%;
-    height: 400px;
-    padding: 2em;
-    text-align: center;
-}
-
-.aside-right>p
-{
+    width: 40px;
+    height: 150px;
+    padding-left: 12em;
     margin-left: 1em;
+    background-image: url(../imagen/hp.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen2
+{
+    width: 40px;
+    height: 150px;
+    padding-left: 12em;
+    margin-left: 1em;
+    background-image: url(../imagen/dell.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen3
+{
+    width: 40px;
+    height: 150px;
+    padding-left: 12em;
+    margin-left: 1em;
+    background-image: url(../imagen/apple.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.texto
+{
     text-align: justify;
     font-family: 'Roboto Slab', serif;
-    font-weight: normal;
+    font-weight: 300;
     color: black;
 }
 
-.laptop
+.Titulo
 {
-    margin-top: 3em;
-    margin-left: 30%;
-    border-radius: 5px;
-    width: 200px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.links
+{
+    font-size: 15px;
+    font-weight: normal;
+    color:blue;
+    padding-bottom: 5em;
 }
 
 footer
 {
     background-color: black;
-    clear: both;
-    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
     width: 100%;
     height: 35px;
     text-align: center;
 }
+

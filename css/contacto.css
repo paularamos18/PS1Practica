@@ -5,9 +5,9 @@ body
     font-weight: 100;
     margin: 0;
     padding: 0;
-    background-image: url(../imagen/madera1.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../imagen/contacto.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header
@@ -83,7 +83,7 @@ header>div>h1
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
     font-weight: normal;
-    padding-left: 10%;
+    margin-left: 10em;
 }
 
 .menu-mensaje
@@ -94,12 +94,12 @@ header>div>h1
 
 .input
 {
-    width: 190px;
+    width: 270px;
     height: 20px;
     border: 0.5px solid;
     border-radius: 5px;
-    margin-bottom: 8px;
-    padding-left: 83px;
+    margin-bottom: 8px;  
+    text-align: left;
 }
 
 .boton
